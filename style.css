@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pacific' sans-serif;
+   
+}
+
+.pagina1{
+    background-image: url('imagem/img1.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 0px 0px 15px 15px;
+    
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    background-color: #050505e7;
+    width: 100%;  
+    border-radius: 0px 0px 10px 10px;
+}
+span{
+    color: red;
+}
+nav ul  li{
+    display: inline-block;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+nav a:hover{
+    color: red; 
+}
+.main{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+    text-transform : capitalize;
+}
+h2{
+    color: white;
+    margin: 10px 0px 10px;
+    font-size: 40px;
+    text-align: center;
+    text-transform : capitalize;
+}
+h3{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 20px; 
+}
+
+.pagina2{
+    display: flex;
+    background-color: #161616;
+    height: 100%;
+    padding: 10%;
+    border-radius: 5%;
+    
+    
+}
+.main-sobre {
+    width:550px;
+}
+
+.sobre-mim{
+    display: flex;
+    text-align: left;
+    color :  rgba(247, 245, 247, 0.8);
+    justify-content: space-around;
+    width: 1100px;
+    margin: 0 auto;    
+}
+.sobre-mim p{
+    color:  #fcfc;
+    letter-spacing: 1px;
+    line-height:  28px;
+    font-size:  20px;
+    margin-top:  45px;
+}
+.sobre-mim h4{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.pagina3{
+    background-color:  #2b2929;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.projetos img {
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 50px;
+ 
+  }
+
+ .projetos img:hover{
+    border: 2px solid white;
+ }
+
+.pagina4{
+    display:flex;
+    height:  200px;
+    background-color:  #1a1919;
+    text-align: center; 
+    
+    
+}
+.pagina4 img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.pagina4 img:hover{
+    border: 2px solid white;
+  
+}
+.pagina4 p {
+    color:  #fcfc ;
+    font-size:  20px;
+    text-align: center;
+    margin-top:  15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+footer{
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
