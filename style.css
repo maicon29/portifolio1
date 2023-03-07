@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'pacific' sans-serif;
-   
 }
 
 .pagina1{
@@ -13,9 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    border-radius: 0px 0px 15px 15px;
-    
-    
+    border-radius: 10px;
 }
 
 nav{
@@ -57,8 +54,7 @@ nav a:hover{
 
 h1{
     color: white;
-    margin: 20px 0px 20px;
-    font-size: 50px;
+    font-size: 40px;
     text-transform : capitalize;
 }
 h2{
@@ -79,12 +75,7 @@ h3{
     background-color: #161616;
     height: 100%;
     padding: 10%;
-    border-radius: 5%;
-    
-    
-}
-.main-sobre {
-    width:550px;
+    border-radius: 10px;
 }
 
 .sobre-mim{
@@ -111,15 +102,13 @@ h3{
     background-color:  #2b2929;
     padding: 10px;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .projetos img {
     height: 200px;
-    border-radius: 20px;
-    cursor: pointer;
-    margin: 50px;
- 
+    border-radius: 10px;
+    margin: 10px;
   }
 
  .projetos img:hover{
@@ -131,13 +120,14 @@ h3{
     height:  200px;
     background-color:  #1a1919;
     text-align: center; 
+    border-radius: 10px;
     
     
 }
 .pagina4 img{
     width: 50px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 10px;
     box-sizing: border-box;
 }
 .pagina4 img:hover{
@@ -145,12 +135,13 @@ h3{
   
 }
 .pagina4 p {
+    display: block;
     color:  #fcfc ;
-    font-size:  20px;
+    font-size:  15px;
     text-align: center;
-    margin-top:  15px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 20px;
+   
 }
 footer{
     background-color: #ffffff;
