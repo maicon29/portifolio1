@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'pacific' sans-serif;
 }
-
 .pagina1{
     background-image: url('imagem/fundo-teste.avif');
     background-size: cover;
@@ -13,19 +12,20 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-
+.pagina1  a{
+    width: 10vw;
+}
 nav{
+    background-color: #050505e7;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 0;
-    padding-left: 8%;
-    padding-right: 8%;
-    position: fixed;
-    background-color: #050505e7;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 100%;  
-    border-radius: 0px 0px 10px 10px;
+    position: fixed;
 }
+
 span{
     color: red;
 }
@@ -39,6 +39,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: bolder;
     text-transform: capitalize;
+    
 }
 nav a:hover{
     color: red; 
@@ -139,4 +140,17 @@ footer{
     text-align: center;
     font-size: 2vw;
     font-weight: bolder;
+}
+
+
+
+
+
+/*
+body{
+justify-content:space-between,  space-evenly, space-around; serve para da o maior espaco entre os elementos.
+
+vai da o mesmo espaco entre os elementos.
+
+
 }
