@@ -7,12 +7,11 @@
 }
 
 .pagina1{
-    background-image: url('imagem/img1.JPG');
+    background-image: url('imagem/fundo-teste.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    border-radius: 10px;
 }
 
 nav{
@@ -40,7 +39,6 @@ nav ul li a{
     text-decoration: none;
     font-weight: bolder;
     text-transform: capitalize;
-
 }
 nav a:hover{
     color: red; 
@@ -49,31 +47,29 @@ nav a:hover{
     position: absolute;
     top: 40%;
     left: 15%;
-    
 }
 
 h1{
     color: white;
-    font-size: 40px;
+   font-size: 4vw;
     text-transform : capitalize;
 }
 h2{
     color: white;
     margin: 10px 0px 10px;
-    font-size: 40px;
+    font-size: 3.5vw;
     text-align: center;
     text-transform : capitalize;
 }
 h3{
     color: white;
     margin: 20px 0px 20px;
-    font-size: 20px; 
+    font-size: 2.4vw; 
 }
 
 .pagina2{
     display: flex;
     background-color: #161616;
-    height: 100%;
     padding: 10%;
     border-radius: 10px;
 }
@@ -83,15 +79,14 @@ h3{
     text-align: left;
     color :  rgba(247, 245, 247, 0.8);
     justify-content: space-around;
-    width: 1100px;
     margin: 0 auto;    
 }
 .sobre-mim p{
     color:  #fcfc;
     letter-spacing: 1px;
-    line-height:  28px;
     font-size:  20px;
     margin-top:  45px;
+    text-align: justify;
 }
 .sobre-mim h4{
     text-align: center;
@@ -114,38 +109,34 @@ h3{
  .projetos img:hover{
     border: 2px solid white;
  }
-
 .pagina4{
-    display:flex;
-    height:  200px;
-    background-color:  #1a1919;
-    text-align: center; 
+    display: flex;
+    background-color: #161616;
+    padding: 10%;
     border-radius: 10px;
-    
-    
+    text-align: center;
 }
+
 .pagina4 img{
     width: 50px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
     box-sizing: border-box;
+   
 }
 .pagina4 img:hover{
     border: 2px solid white;
-  
 }
-.pagina4 p {
-    display: block;
-    color:  #fcfc ;
-    font-size:  15px;
-    text-align: center;
-    letter-spacing: 1px;
+.pagina4 p{
+    color:  #fcfc;
     line-height: 20px;
-   
+    font-size:  20px;
+    text-align: justify;
+    
 }
 footer{
     background-color: #ffffff;
     text-align: center;
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: bolder;
 }
