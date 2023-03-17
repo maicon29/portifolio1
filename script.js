@@ -16,3 +16,4 @@ const relogio = setInterval(function time() {
      minutos.textContent = min;
      segundos.textContent = s;
 })
+window.alert('todas as fotos estao em processo de edicao desculpe pela qualidade das imagem atuais essas só são modelos.')
