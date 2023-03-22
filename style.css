@@ -186,19 +186,19 @@ h3{
     text-align: justify;
  }
 .pagina5{
-    display: flex;
     background-color: #2b2929;
-    padding: 10%;
+    padding-top :  30px;
     border-radius: 10px;
+    height: 300px;
+    align-items: center;
     text-align: center;
+    justify-content: space-around;
 }
 
 .pagina5 img{
-    width: 50px;
-    margin: 5px;
+    height: 70px;
+    margin: 10px;
     border-radius: 10px;
-    box-sizing: border-box;
-   
 }
 .pagina5 img:hover{
     border: 2px solid white;
@@ -208,7 +208,7 @@ h3{
     line-height: 20px;
     font-size:  20px;
     font-weight: bolder;
-    text-align: justify;
+    margin: 30px; 
 }
 footer{
     background-color: #ffffff;
